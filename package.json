@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "~4.0.0",
-    "jade": "*",
+    "express": "~3.8.0",
+    "jade": "*"
   },
   "scripts": {
     "start": "node app.js"

@@ -1,5 +1,8 @@
-var express = require('express'); 		
-var app = express(); 
+var express = require('express'), 		
+		http = require('http'),
+    routes = require('./routes'); 
+
+var app = express();
 
 app.configure(function(){
 	app.set('port', process.env.PORT || 3000)
