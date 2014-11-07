@@ -1,12 +1,10 @@
 {
-  "name": "hackerschool_play",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "express": "~3.8.0",
-    "jade": "*"
-  },
-  "scripts": {
-    "start": "node app.js"
-  }
+	"name": "hacker-school",
+	"main": "server.js",
+	"dependencies": {
+		"express": "~4.0.0",
+		"mongoose": "~3.6.13",
+		"body-parser": "~1.0.1",
+		"jade": "~1.7.0"
+	}
 }
